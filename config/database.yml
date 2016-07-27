@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: aws_production
-  username: aws
+  database: achieve_production
+  username: achieve
   password: <%= ENV['AWS_DATABASE_PASSWORD'] %>
