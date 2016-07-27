@@ -32,5 +32,4 @@ namespace :unicorn do
       raise "Unicorn doesn't seem to be running"
     end
   end
-
-end
+end
